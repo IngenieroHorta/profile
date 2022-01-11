@@ -51,4 +51,13 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+  
 });
+
+function myFunction() {
+    
+    var link = document.createElement('a');
+    link.href = 'assets/img/cv.pdf';
+    link.download = 'RobinsonHorta.pdf';
+    link.dispatchEvent(new MouseEvent('click'));
+  }
